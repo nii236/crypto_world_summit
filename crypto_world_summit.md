@@ -26,7 +26,7 @@ _Unqualified Bear Hunter_
 - John Nguyen
 - Mining engineer (Piping, Mechanical, Process Controls, Industrial Networks)
 - 15 years programming experience
-- Ninja Software CTO
+- Ninja Software CTO and Co-founder
 
 ---
 
@@ -38,8 +38,8 @@ _Unqualified Bear Hunter_
 - Ghana deployment
   - Bought BTC for $100
   - Tried to trade my watch for 5BTC
-  - Bartered goods
-  - Algorithmic trading bots on Mt Gox
+  - Bartered goods for BTC
+  - Wrote algorithmic trading bots on Mt Gox
 
 ---
 
@@ -51,7 +51,7 @@ _Unqualified Bear Hunter_
 
 ![bg left:30%](./john_char.jpg)
 
-- Cypherpunk phase
+- Enter the cypherpunk phase
   - Crypto-steel and cold storage
   - Went into hibernation after the blocksize wars
 - Blockchain forensic toolkit
@@ -63,7 +63,7 @@ _Unqualified Bear Hunter_
 # Today's talk
 
 - Yield farming via liquidity provisioning
-- We'll be using Uniswap V3, the most cutting edge AMM
+- Using Uniswap V3, the most cutting edge AMM
 - Covering:
   - Position discovery
   - Range types
@@ -94,13 +94,14 @@ Blockchain security is backed by consensus mechanisms (Proof of Work, Proof of S
 
 - Functions that are deployed to the blockchain that interact with other contracts or wallet addresses
 - Programs that execute logic and deal with the transfer of value
+- Programmable money
 
 ---
 
 # What is DeFi?
 
-- Decentralised finance
-- A new space in the world of blockchains and cryptocurrency, only a few years old
+- Decentralised finance allowing capital efficiency
+- A new space in the world of blockchains and cryptocurrency
 - Trustless financial tools
 - Lend, borrow, trade, insure
 - Discover huge yields
@@ -367,12 +368,15 @@ Mitigation 2: “Chase” price (take profit/stop loss) by closing and opening n
 
 # Risk Mitigation
 
-- Go through the 4 pillars of a good DeFi project
-  - Community
-  - Leadership
-  - Security
-  - Open source
-- Come and see me if you want to learn more about due diligence for any DeFi projects
+Verify that a project has satisfied the 5 fundamentals of a good DeFi system
+
+- Community
+- Tokenomics
+- Leadership
+- Security
+- Open source
+
+Come and see me if you want to learn more about DeFi due diligence.
 
 ---
 
@@ -380,7 +384,7 @@ Mitigation 2: “Chase” price (take profit/stop loss) by closing and opening n
 
 We've barely scratched the surface of yield farming!
 
-- Liquidity provision into traditional AMMs
+- Liquidity provision into traditional AMMs (Balancer)
 - Hunt for airdrops (UNI)
 - Save gas with rollups (Optimism)
 - Bond and stake LP tokens for additional rewards (Gysr)
@@ -392,6 +396,9 @@ We've barely scratched the surface of yield farming!
 
 # What next (cont.)?
 
+![bg left:40% 90%](./howtodefi.webp)
+
+- Read some books (CoinGecko)
 - Single sided staking (OHM)
 - Buy some NFTs (OpenSea)
 - Look into fixed income protocols (Pendle)
