@@ -15,7 +15,7 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 **John Nguyen**
 _Ninja Software CTO_
 _Unqualified Bear Hunter_
-_I just like the tech_
+"_I just like the tech_"
 
 ---
 
@@ -34,7 +34,7 @@ _I just like the tech_
 
 ![bg left:30%](./ghana.png)
 
-- 9 years in crypto (2013)
+- 9 years in crypto (since 2013)
 - Ghana deployment
   - Bought BTC for $100
   - Tried to trade my watch for 5BTC
@@ -70,6 +70,12 @@ _I just like the tech_
   - Position maintenance
 - This is an _intermediate_ talk
   - Understand metamask, key management, gas fees, self-custody
+
+---
+
+# A super fast primer into DeFi
+
+## Hang on to your hats!
 
 ---
 
@@ -172,7 +178,9 @@ Blockchain security is backed by consensus mechanisms (Proof of Work, Proof of S
 
 ---
 
-# Step 1: Select Pair on dune
+# Step 1: Select Pair on Dune Analytics
+
+An Ethereum analytics platform that is community driven.
 
 ---
 
@@ -227,19 +235,74 @@ Good for sideways market.
 
 ---
 
-# Step 3: Select position range (min and max price)
+# Advanced Position Types (Daytrade)
 
-- This depends on price volatility.
+![bg left:40% 100%](./advanced_position.png)
+
+- Time the market: Not recommended!
+  - Close positions when the price crosses over
+  - Open new position on the other side
+  - Farm volatility for capital gains
+
+---
+
+# Step 3: Select position range with a min and max price
+
+- This depends on price volatility
 - High volatility requires larger ranges
   - Greater exposure to price increases
   - Reduced fees
-- Low volatility requires smallerranges
+- Low volatility requires smaller ranges
   - Greater exposure to price increases
   - Increased fees
 
 ---
 
 ![bg 90%](./flipside.png)
+
+---
+
+# Step 3 (cont.): Select position range
+
+![bg left:40% 90%](./flipside_inputs.png)
+
+Set your inputs
+
+- Price Assumption
+- Min max price
+- Swap volume date range
+
+---
+
+# Step 3 (cont.): Select position range
+
+![bg left:40% 90%](./flipside_price_curve.png)
+
+Review the swap charts
+
+- 100% of volume covered
+- Lookin' good!
+
+---
+
+# Step 3 (cont.): Select position range
+
+![bg left:40% 90%](./flipside_liquidity.png)
+
+Review liquidity charts
+
+- 0.4% of virtual liquidity (not too diluted or concentrated)
+- Reasonable volume (~$600,000 per day)
+
+---
+
+# Step 3 (cont.): Select position range
+
+![bg left:40% 90%](./flipside_outputs.png)
+
+Enter investment amount
+
+- ~$30 per day of fees will be generated with the current settings
 
 ---
 
@@ -289,7 +352,7 @@ Impermanent loss is only realized if you exit your position
   - If ETH goes to the moon, you will have 100% OHM
 
 Mitigation 1: Long both tokens so you’ll be happy either way
-Mitigation 2: “Chase” price by closing and opening new positions
+Mitigation 2: “Chase” price (take profit/stop loss) by closing and opening new positions
 
 ---
 
@@ -317,6 +380,7 @@ Mitigation 2: “Chase” price by closing and opening new positions
 
 We've barely scratched the surface of yield farming!
 
+- Liquidity provision into traditional AMMs
 - Hunt for airdrops (UNI)
 - Save gas with rollups (Optimism)
 - Bond and stake LP tokens for additional rewards (Gysr)
