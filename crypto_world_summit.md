@@ -39,7 +39,8 @@ _Unqualified Bear Hunter_
   - Bought BTC for $100
   - Tried to trade my watch for 5BTC
   - Bartered goods for BTC
-  - Wrote algorithmic trading bots on Mt Gox
+  - Developed algorithmic trading bots on Mt Gox
+    - Lost a lot of money!
 
 ---
 
@@ -51,12 +52,11 @@ _Unqualified Bear Hunter_
 
 ![bg left:30%](./john_char.jpg)
 
-- Enter the cypherpunk phase
-  - Crypto-steel and cold storage
-  - Went into hibernation after the blocksize wars
-- Blockchain forensic toolkit
-- Build blockchain software
-- Invest in DeFi projects
+- Crypto-steel and cold storage
+- Went into hibernation after the blocksize wars
+- Developed blockchain analytics and applications
+- Advise on private funds (PBS investments and others)
+- Member of Perth Cypherpunk Angels
 
 ---
 
@@ -68,14 +68,21 @@ _Unqualified Bear Hunter_
   - Position discovery
   - Range types
   - Position maintenance
+
+---
+
+# Pre-requisites
+
 - This is an _intermediate_ talk
-  - Understand metamask, key management, gas fees, self-custody
+  - Understand how to use MetaMask and other wallets
+  - Self custody of crypto
+  - Gas fee management
 
 ---
 
 # A super fast primer into DeFi
 
-## Hang on to your hats!
+## Hold on to your hats!
 
 ---
 
@@ -92,19 +99,20 @@ Blockchain security is backed by consensus mechanisms (Proof of Work, Proof of S
 
 # What are smart contracts?
 
+- Programmable value!
 - Functions that are deployed to the blockchain that interact with other contracts or wallet addresses
 - Programs that execute logic and deal with the transfer of value
-- Programmable money
 
 ---
 
-# What is DeFi?
+# What is Decentralised Finance (DeFi)?
 
-- Decentralised finance allowing capital efficiency
-- A new space in the world of blockchains and cryptocurrency
+- Fastest growing sector in the world of blockchains and cryptocurrency
 - Trustless financial tools
-- Lend, borrow, trade, insure
-- Discover huge yields
+- Protocols instead of companies
+- Shared state instead of silo-ed data
+- Lend, borrow, trade, insure, do all sorts of things!
+- Discover huge yields in this nascent stage
 
 ## No middlemen, no vetting, no blockers
 
@@ -113,14 +121,17 @@ Blockchain security is backed by consensus mechanisms (Proof of Work, Proof of S
 # What is Yield Farming?
 
 - The art and science of combining the money legos of DeFi to maximise yield
-- Lending tokens, borrowing tokens, derivative tokens, tokenised _everything_
+- Tokenised _everything_
+  - Lending tokens
+  - Borrowing tokens
+  - Derivative tokens
 - We can use these tokens and interoperate with different DeFi protocols in weird and wonderful ways
 
 ---
 
-# What is an AMM?
+# What is an Automated Market Maker (AMM)?
 
-- Automated Market Maker
+- Liquidity pool for swaps
 - Two main parties:
   - Traders swaps between pairs
   - Liquidity providers can provide liquidity, receive fees and token rewards
@@ -191,7 +202,9 @@ An Ethereum analytics platform that is community driven.
 
 # Step 1 (cont.): Select Pair on dune
 
-![bg 90%](./dune_table.png)
+Aim for high volume, high fees/TVL, high #trades and solid project fundamentals.
+
+![height:7.6cm](./dune_table.png)
 
 ---
 
@@ -210,6 +223,7 @@ An Ethereum analytics platform that is community driven.
 Good for bear market.
 
 - Capture increases in price
+- Low risk fee accrual
 
 ---
 
@@ -220,6 +234,7 @@ Good for bear market.
 Good for bull market.
 
 - Capture dips in price
+- Low risk fee accrual
 
 ---
 
@@ -233,6 +248,7 @@ Good for sideways market.
 - Automatic rebalancing
   - "Sell" on the way up
   - "Buy" on the way down
+- Medium risk fee accrual (breakout risk)
 
 ---
 
@@ -277,6 +293,23 @@ Set your inputs
 
 # Step 3 (cont.): Select position range
 
+Enter investment amount
+
+- ~$30 per day of fees will be generated with the current settings
+
+<style>
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+
+![center 90% drop-shadow](./flipside_outputs.png)
+
+---
+
+# Step 3 (cont.): Select position range
+
 ![bg left:40% 90%](./flipside_price_curve.png)
 
 Review the swap charts
@@ -294,16 +327,6 @@ Review liquidity charts
 
 - 0.4% of virtual liquidity (not too diluted or concentrated)
 - Reasonable volume (~$600,000 per day)
-
----
-
-# Step 3 (cont.): Select position range
-
-![bg left:40% 90%](./flipside_outputs.png)
-
-Enter investment amount
-
-- ~$30 per day of fees will be generated with the current settings
 
 ---
 
@@ -329,7 +352,7 @@ You may need to purchase one or the other token in the pair to be able to fund t
 
 ---
 
-![bg 100%](./deploy_position.png)
+![bg](./deploy_position.png)
 
 ---
 
@@ -362,7 +385,7 @@ Mitigation 2: “Chase” price (take profit/stop loss) by closing and opening n
 - DeFi tokens are extremely volatile
 - Reported APY is always changing
 - Market can move the wrong way, requiring repositioning
-- Gas fees will eat at your profits until roll-ups are more common
+- Gas fees will eat at your profits until roll-ups become more common
 
 ---
 
