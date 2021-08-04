@@ -37,7 +37,6 @@ _Unqualified Bear Hunter_
 - 9 years in crypto (since 2013)
 - Ghana deployment
   - Bought BTC for $100
-  - Tried to trade my watch for 5BTC
   - Bartered goods for BTC
   - Developed algorithmic trading bots on Mt Gox
     - Lost a lot of money!
@@ -53,10 +52,10 @@ _Unqualified Bear Hunter_
 ![bg left:30%](./john_char.jpg)
 
 - Crypto-steel and cold storage
-- Went into hibernation after the blocksize wars
-- Developed blockchain analytics and applications
+- Entered hibernation after blocksize wars
+- Developed blockchain forensics and applications
 - Advise on private funds (PBS investments and others)
-- Member of Perth Cypherpunk Angels
+- Member of Perth Cypherpunk Council
 
 ---
 
@@ -89,18 +88,19 @@ _Unqualified Bear Hunter_
 # What is the blockchain?
 
 - Decentralised triple entry ledger
-  - Each blockchain contains multiple blocks
-    - Each block contains cryptographically verified transactions
-      - Transaction can be a simple value transfer or a complex smart contract invocation
+  - Reversed linked list structure of blocks
+    - Each block contains cryptographically verified transactions and a block header containing metadata and a hash pointer to the previous block
+      - Transaction can be a simple value transfer (Bitcoin UTXO) or a complex smart contract invocation (Ethereum)
 
-Blockchain security is backed by consensus mechanisms (Proof of Work, Proof of Stake), driven by an incentivised miner or staking network.
+Blockchain security is backed by consensus mechanisms (Proof of Work, Proof of Stake), secured by an incentivised miners or stakers.
 
 ---
 
 # What are smart contracts?
 
 - Programmable value!
-- Functions that are deployed to the blockchain that interact with other contracts or wallet addresses
+- NOT a legal contract or agreement
+- Functions that are deployed to the blockchain that interact with other deployed contracts or wallet addresses
 - Programs that execute logic and deal with the transfer of value
 
 ---
@@ -182,8 +182,8 @@ Blockchain security is backed by consensus mechanisms (Proof of Work, Proof of S
 
 # How do I choose a position?
 
-- Step 1: Select pair (OHM/ETH)
-- Step 2: Select position type (Over, Under, In-Range)
+- Step 1: Select pair
+- Step 2: Select position type
 - Step 3: Select position range
 - Step 4: Deploy your position
 - Step 5: Maintain the position
@@ -254,7 +254,7 @@ Good for sideways market.
 
 # Advanced Position Types (Daytrade)
 
-![bg left:40% 100%](./advanced_position.png)
+![bg left:40% 100%](./position_daytrade.png)
 
 - Time the market: Not recommended!
   - Close positions when the price crosses over
@@ -361,8 +361,9 @@ You may need to purchase one or the other token in the pair to be able to fund t
 - Claim fees and compound
 - Exit and redeploy after crossing over
 - Exit and redeploy to chase the price
+- Collected about 250USD over a week
 
-![bg left:50% 90%](./view_position.png)
+![bg left:50%](./view_position.png)
 
 ---
 
