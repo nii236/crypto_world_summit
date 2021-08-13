@@ -70,6 +70,14 @@ _Unqualified Bear Hunter_
 
 ---
 
+# Why bother?
+
+- Extremely high yields
+- React to changing market conditions
+- Less competition from other yield farmers
+
+---
+
 # Pre-requisites
 
 - This is an _intermediate_ talk
@@ -88,11 +96,13 @@ _Unqualified Bear Hunter_
 # What is the blockchain?
 
 - Decentralised triple entry ledger
-  - Reversed linked list structure of blocks
-    - Each block contains cryptographically verified transactions and a block header containing metadata and a hash pointer to the previous block
-      - Transaction can be a simple value transfer (Bitcoin UTXO) or a complex smart contract invocation (Ethereum)
+  - Reversed linked list structure of blocks, each containing:
+    - Block header containing metadata and a hash pointer to the previous block
+    - Cryptographically verified transactions, each containing:
+      - Simple value transfer (Bitcoin UTXO); or
+      - More complex smart contract invocation (Ethereum)
 
-Blockchain security is backed by consensus mechanisms (Proof of Work, Proof of Stake), secured by an incentivised miners or stakers.
+Blockchain security is backed by consensus mechanisms (Proof of Work, Proof of Stake), secured by incentivised miners or stakers.
 
 ---
 
@@ -107,12 +117,11 @@ Blockchain security is backed by consensus mechanisms (Proof of Work, Proof of S
 
 # What is Decentralised Finance (DeFi)?
 
-- Fastest growing sector in the world of blockchains and cryptocurrency
+- Fastest growing sector within blockchain technology
 - Trustless financial tools
 - Protocols instead of companies
 - Shared state instead of silo-ed data
 - Lend, borrow, trade, insure, do all sorts of things!
-- Discover huge yields in this nascent stage
 
 ## No middlemen, no vetting, no blockers
 
