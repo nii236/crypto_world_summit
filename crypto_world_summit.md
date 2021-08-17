@@ -63,7 +63,7 @@ _Unqualified Bear Hunter_
 
 - Yield farming via liquidity provisioning
 - Using Uniswap V3, the most cutting edge AMM
-- Covering:
+- Covering:T
   - Position discovery
   - Range types
   - Position maintenance
@@ -446,5 +446,12 @@ Happy to chat over a coffee about anything to do with crypto, NFTs, software eng
 
 - Email: john@ninjasoftware.com.au
 - Twitter: @nii236
+
+---
+
+# ...and Finally
+
+![bg 95%](./alex.png)
+![bg left:70% 95%](./john.png)
 
 _Come get a limited edition NFT!_
