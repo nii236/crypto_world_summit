@@ -449,7 +449,7 @@ Happy to chat over a coffee about anything to do with crypto, NFTs, software eng
 
 ---
 
-![bg 95%](./alex.png)
-![bg left:70% 95%](./john.png)
+![bg 95%](./alex_card.jpg)
+![bg left:70% 95%](./john_card.jpg)
 
 _Come get a limited edition NFT!_
