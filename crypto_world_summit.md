@@ -449,8 +449,6 @@ Happy to chat over a coffee about anything to do with crypto, NFTs, software eng
 
 ---
 
-# ...and Finally
-
 ![bg 95%](./alex.png)
 ![bg left:70% 95%](./john.png)
 
