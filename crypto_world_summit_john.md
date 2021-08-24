@@ -30,9 +30,13 @@ _Unqualified Bear Hunter_
 
 ---
 
+![bg 95%](./holywar_bitcoin.jpg)
+
+---
+
 # Who am I in crypto?
 
-![bg left:30%](./ghana.png)
+![bg left:30%](./ghana.jpeg)
 
 - 9 years in crypto (since 2013)
 - Ghana deployment
@@ -63,7 +67,7 @@ _Unqualified Bear Hunter_
 
 - Yield farming via liquidity provisioning
 - Using Uniswap V3, the most cutting edge AMM
-- Covering:T
+- Covering:
   - Position discovery
   - Range types
   - Position maintenance
@@ -429,7 +433,7 @@ We've barely scratched the surface of yield farming!
 
 # What next (cont.)?
 
-![bg left:40% 90%](./howtodefi.webp)
+![bg left:40% 90%](./howtodefi.png)
 
 - Read some books (CoinGecko)
 - Single sided staking (OHM)
